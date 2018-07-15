@@ -25,12 +25,14 @@
     "lint": "eslint --ignore-pattern coverage **/*.{js,jsx}",
     "pre-commit": "lint-staged"
   },
-  "coverageThreshold": {
-    "global": {
-      "branches": 75,
-      "functions": 75,
-      "lines": 75,
-      "statements": 75
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
     }
   },
   "lint-staged": {
