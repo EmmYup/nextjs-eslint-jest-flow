@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "EmmanuelYupit/nextjs-eslint-jest-flow",
   "author": {
-    "name": "Emmanuel Pacheco Yupit"
+    "name": "Emmanuel Yupit"
   },
   "license": "MIT",
   "dependencies": {
@@ -16,11 +16,22 @@
   },
   "scripts": {
     "test": "NODE_ENV=test jest",
+    "test:all": "NODE_ENV=test yarn run lint && yarn run test:coverage",
+    "test:watch": "NODE_ENV=test jest --watch",
+    "test:coverage": "NODE_ENV=test jest --coverage",
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "eslint --ignore-pattern coverage **/*.{js,jsx}",
     "pre-commit": "lint-staged"
+  },
+  "coverageThreshold": {
+    "global": {
+      "branches": 75,
+      "functions": 75,
+      "lines": 75,
+      "statements": 75
+    }
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
