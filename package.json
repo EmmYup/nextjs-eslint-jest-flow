@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "Nextjs implementation with EsLint Jest and Flow",
   "main": "index.js",
-  "repository": "https://github.com/EmmanuelYupit/nextjs-eslint-jest-flow.git",
-  "author": "Emmanuel Yupit <emmanuelyupit08@gmail.com>",
-  "license": "MIT"
+  "repository": "EmmanuelYupit/nextjs-eslint-jest-flow",
+  "author": {
+    "name": "Emmanuel Pacheco Yupit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.1.1",
+    "next-eslint": "^0.0.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.0.0"
+  }
 }
