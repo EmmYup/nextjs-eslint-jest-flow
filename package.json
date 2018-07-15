@@ -1,0 +1,9 @@
+{
+  "name": "nextjs-eslint-jest-flow",
+  "version": "1.0.0",
+  "description": "Nextjs implementation with EsLint Jest and Flow",
+  "main": "index.js",
+  "repository": "https://github.com/EmmanuelYupit/nextjs-eslint-jest-flow.git",
+  "author": "Emmanuel Yupit <emmanuelyupit08@gmail.com>",
+  "license": "MIT"
+}
