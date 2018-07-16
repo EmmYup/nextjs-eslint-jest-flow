@@ -4,6 +4,9 @@ import Layout from '../components/Layout/index';
 
 export default (): React.Node => (
   <Layout>
-    <div>Hello World.</div>
+    <div>
+      {' '}
+      <p>Welcome to next.js with Eslint, Jest and Flow!</p>{' '}
+    </div>
   </Layout>
 );

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`With Snapshot Testing App shows "Welcome to next.js with Eslint, Jest and Flow!" 1`] = `
+exports[`With Snapshot Testing App shows "About" 1`] = `
 <div>
   <header>
     <nav>
@@ -20,9 +20,8 @@ exports[`With Snapshot Testing App shows "Welcome to next.js with Eslint, Jest a
     </nav>
   </header>
   <div>
-     
     <p>
-      Welcome to next.js with Eslint, Jest and Flow!
+      About
     </p>
      
   </div>

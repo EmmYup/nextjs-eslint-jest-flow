@@ -4,6 +4,8 @@ import Layout from '../components/Layout/index';
 
 export default (): ReactNode => (
   <Layout title="About">
-    <div>About</div>
+    <div>
+      <p>About</p>{' '}
+    </div>
   </Layout>
 );
