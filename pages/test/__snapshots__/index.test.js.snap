@@ -2,10 +2,28 @@
 
 exports[`With Snapshot Testing App shows "Welcome to next.js with Eslint, Jest and Flow!" 1`] = `
 <div>
-   
-  <p>
-    Welcome to next.js with Eslint, Jest and Flow!
-  </p>
-   
+  <header>
+    <nav>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        href="/about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+    </nav>
+  </header>
+  <div>
+    Hello World.
+  </div>
+  <footer>
+    I\`m here to stay
+  </footer>
 </div>
 `;
